@@ -1,0 +1,21 @@
+# Maillages et résultats volumineux (restent sur SimScale / ton disque)
+meshes/
+results/
+*.stl
+*.stp
+*.vtu
+*.msh
+
+# Exports et archives
+exports/
+*.zip
+*.7z
+
+# Fichiers système et éditeur
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python (pour tes scripts d'analyse)
+__pycache__/
+*.pyc
