@@ -22,6 +22,45 @@ Copy the template below for each new session:
 
 ---
 ```
+## 2026-10-06 — SimScale Tutorial
+
+**Done**
+- I finished my first ever CFD simulation in my entire life
+- the results I obtained:
+    - Cd $\approx 0.41$ 
+    - Cl $\approx -0.33$
+    - convergence: residuals down to $10^{-4} - 10^{-5}$, Cd and Cl plateau over the last iterations (REQ-01 criterion)
+- Mesh generated: 6.8 M cells
+- Run: 33min, 35.08 core hours
+- Restructured the project files
+
+**Decisions**
+- I didn't have to take any decisions for the tutorial, I only followed what the SimScale documentation was saying
+- After the tutorial, I didn't know where to archive the screenshots and tutorial results. I took the decision to create a more structured, precise file system
+
+**Issues & learnings**
+- How to set-up and select the analysis type of the simulation
+    - CAD refinings
+    - create saved selections
+- Set up the simulation
+    - Select the material
+    - Assign boundary conditions
+    - Set up the simulation controls
+    - Set up the result controls
+- Mesh configurations
+    - Base meshing configuration
+    - Addition of a Far field and Close field to refine the meshing
+    - Refining of the mesh on the surface of the wheels
+- Post processing
+    - how to visualize pressure around the car
+    - how to visualize turbulent kinetic energy around the car
+    - how to visualize velocity magnitude of air around the car
+    - how to visualize the velocity magnitude in the form of a particle trace
+    - first interactions with cutting planes
+    - Reducing the scale gives a better visualization and finer results
+
+**Next**
+- Taking the decision for the body geometry I'm going to use along this project
 
 ---
 
